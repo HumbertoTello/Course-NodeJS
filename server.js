@@ -14,20 +14,10 @@ mongoose.connect(
 
 requireDir('./src/models');
 
-const Product = mongoose.model('Product');
-
-// First route
-// message on screen
-// app.get('route', (req, res))
-// '/' = root; req = requisition details to the server; res = response to the requisition
-app.get('/', (req, res) => {
-  Product.create({
-    title: 'React Native',
-    description: 'Build native apps with React',
-    url: 'http://github.com/facebook/react-native'
-  });
-  
-  return res.send('Hello World');
-});
+// Rotas
+app.use('/api', require('./src/routes')); // receive all types of requisitions
 
 app.listen(3001); // app will listen the 3001 port, so you can access it on your browser: "localhost:3001"
+
+
+
