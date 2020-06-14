@@ -20,7 +20,8 @@
   "homepage": "https://github.com/HumbertoTello/Course-NodeJS#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.18"
+    "mongoose": "^5.9.18",
+    "require-dir": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
