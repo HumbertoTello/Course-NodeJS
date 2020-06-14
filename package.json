@@ -1,0 +1,28 @@
+{
+  "name": "Course-NodeJS",
+  "version": "1.0.0",
+  "description": "Course made by Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumbertoTello/Course-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumbertoTello/Course-NodeJS/issues"
+  },
+  "homepage": "https://github.com/HumbertoTello/Course-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
