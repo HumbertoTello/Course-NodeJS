@@ -4,6 +4,7 @@ const requireDir = require('require-dir');
 
 // Starting the app
 const app = express(); // express execution
+app.use(express.json()); // sends files in json format
 
 // Starting the DB
 // Passing the URL connection with MongoDB
